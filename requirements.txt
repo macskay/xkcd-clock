@@ -1,1 +1,4 @@
-PIL
+Pillow==3.2.0
+pip==8.1.1
+setuptools==20.9.0
+wheel==0.29.0
