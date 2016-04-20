@@ -17,7 +17,7 @@ def main():
     dt = datetime.utcnow()
     print(dt.hour, dt.minute)
 
-    magnitudes = 24 - dt.hour
+    magnitudes = 24 - dt.hour-1
 
     if summertime:
         magnitudes -= 1
